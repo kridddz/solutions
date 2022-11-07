@@ -1,0 +1,24 @@
+{
+    "backend": {
+        "url": "https://bff.testnet.superprotocol.com/graphql",
+        "accessToken": "eyJhbGciOiJFUzI1NiJ9.eyJhZGRyZXNzIjoiMHhiQjkwRDlEQjlCMjI5YmFiODU1Y0JEY0Y0NzJENUE4MjliOTUxZjU0IiwiaWF0IjoxNjY1NDAyMzc5LCJleHAiOjE2OTY5NTk5Nzl9.UJgSblPIFVcOwCaGBqTOcUJ_hQ8fUGQxu9ICVsHNB6DgNyKmTJ-_Grw3d2-Qt_YZ60Lr3dq4j6OvVvoLqYCZhA"
+    },
+    "blockchain": {
+        "rpcUrl": "https://wandering-snowy-sun.matic-testnet.quiknode.pro/98e3f8f8fe7ef3c53743ba59fbe6fd6771638d61/",
+        "smartContractAddress": "0x2Bb91A63BC4956Ae4dAC5dBe9B068da0bD1D035d",
+        "accountPrivateKey": "0x0cfb376011400b1af39c6ce8adcfe6c881d3c785cd2945f05c79dc1686ff8a71"
+    },
+    "storage": {
+        "type": "STORJ",
+        "bucket": "STORJ bucket",
+        "writeAccessToken": "write",
+        "readAccessToken": "read"
+    },
+    "workflow": {
+        "resultEncryption": {
+            "algo": "ECIES",
+            "key": "spctl workflows generate-key",
+            "encoding": "base64"
+        }
+    }
+}
